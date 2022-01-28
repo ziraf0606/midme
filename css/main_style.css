@@ -190,12 +190,11 @@ body{
 }
 /*banner------------------------------------------------*/
 #main_banner{
-   height:600px;
    margin:0 auto;
    text-align: center;
 }
 #main_banner img{
-   width:1920px;
+   width:100%;
 }
 /*timer------------------------------------------------*/
 #timer{
