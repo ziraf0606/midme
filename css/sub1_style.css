@@ -375,7 +375,6 @@ body{
    float:left;
    padding-right:75px;
    padding-top:5px;
-
 }
 #midme_signature .midme_signature_wrap ul li:nth-child(1){
    padding-top:0;
@@ -385,25 +384,24 @@ body{
 }
 /*about_busan_banner------------------------------------------------------*/
 #about_busan_banner{
-   width:1920px;
+   width:100%;
    margin:0 auto;
-   height:600px;
    position:relative;
    top:0;
    left:0;
 }
 #about_busan_banner .busanoiso{
    position:absolute;
-   bottom:0;
-   right: 200px;
+   top:10%;
+   right: 5%;
    z-index:10;
 }
 /*about_busan_visit------------------------------------------------------*/
 #about_busan_visit{
-   width:1920px;
+   width:100%;
    height:720px;
    margin:0 auto;
-   background: url("../image/sub1/sub1_busan_location_bg.jpg") no-repeat top left;
+   background: url("../image/sub1/sub1_busan_location_bg.jpg") no-repeat top left 50%;
 }
 #about_busan_visit .about_busan_visit_box{
    width:1280px;
