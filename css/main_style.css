@@ -24,6 +24,7 @@ body{
 	font-size:14px;
 	color:#333;
 	line-height:1.5em;
+   min-width: 1320px;
 }
 /*margin200*/
 .margin200{
