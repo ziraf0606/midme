@@ -1,0 +1,491 @@
+@font-face {
+   font-family: 'KHNPHU';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHU.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'KHNPHD';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHD.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Vitro_pride';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_pride.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+*{margin:0;padding:0;}/*여백초기화*/
+a{text-decoration: none; color: #333;}/*밑줄,글자색바꾸기*/
+ul{list-style: none;}/*블릿없애기*/
+body{
+	font-family: 'KHNPHU';
+	font-size:14px;
+	color:#333;
+	line-height:1.5em;
+   min-width: 1320px;
+}
+/*margin200*/
+.margin200{
+   width:1000px;
+   height:200px;
+   margin:0 auto;
+   position:relative;
+   top:0;
+   left:0;
+}
+.margin150{
+   width:1320px;
+   height:150px;
+   margin:0 auto;
+   position:relative;
+   top:0;
+   left:0;
+}
+.margin100{
+   width:600px;
+   height:100px;
+   margin:0 auto;
+   position:relative;
+   top:0;
+   left:0;
+}
+.margin200_title{
+   font-family: 'KHNPHD';
+   font-size:20px;
+   position:absolute;
+   bottom:20px;
+   left:0;
+}
+.margin150_title{
+   font-family: 'KHNPHD';
+   font-size:20px;
+   position:absolute;
+   bottom:20px;
+   left:0;
+}
+.margin100_title{
+   font-family: 'KHNPHD';
+   font-size:20px;
+   position:absolute;
+   bottom:20px;
+   left:0;
+}
+.margin200 .more_wrap{
+   width:180px;
+   height:40px;
+   position:absolute;
+   bottom:60px;
+   left:50%;
+   margin-left:-90px;
+   text-align: center;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+.margin200 .more_wrap a{
+   width:180px;
+   height:40px;
+   color:#253066;
+   border:1px solid #253066;
+   display: block;
+   box-sizing: border-box;
+   padding-top:9px;
+      
+}
+.margin200 .more_wrap .more_bg{
+   position:absolute;
+   top:0;
+   z-index:0;
+   left:-234px;
+   width:220px;
+   height:40px;
+   background-color: #253066;
+   transform: skewx(-30deg);
+   text-align: center;
+   padding:9px 6px 0 0;
+   box-sizing: border-box;
+   transition: ease 0.5s;
+   opacity: 0;
+}
+.margin200 .more_wrap a:hover{
+   color:#fff;
+   position:absolute;
+   top:0;
+   left:0;
+   z-index:1;
+   transition: ease 0.3s;
+   box-sizing: border-box;
+}
+.margin200 .more_wrap a:hover .more_bg{
+   left:-20px;
+   transition: ease 0.5s;
+   box-sizing: border-box;
+   opacity: 1;
+}
+/*------------------------------------------------------------------*/
+#fotter{
+   background-color: #333;
+   text-align: center;
+   color:#fff;
+}
+#fotter div{   
+   width:700px;
+   margin:0 auto;
+   box-sizing: border-box;
+}
+#fotter .fotter1{height:70px; padding-top:25px;}
+#fotter .fotter2{height:70px; position:relative;}
+#fotter .fotter3{height:75px; padding-top:10px;}
+#fotter .fotter4{height:135px; padding-top:55px;}
+#fotter .fotter5{height:50px;}
+#fotter .fotter1 ul li{
+   width:20%;
+   float:left;
+   box-sizing: border-box;
+}
+#fotter .fotter2 .f_f_logo1{
+   position:absolute;
+   top:0;
+   left:50%;
+   margin-left:-200px;
+}
+#fotter .fotter2 .f_f_logo2{
+   position:absolute;
+   top:0;
+   left:50%;
+   margin-left:100px;
+}
+#fotter .fotter1 ul li a{
+   color:#fff;
+   font-size:10px;
+}
+#fotter .fotter1 ul li a:hover{
+   color:#39beb9;
+}
+#fixed{
+   position:fixed;
+   bottom:100px;
+   right:10%;
+   z-index:99;
+   text-align: center;
+}
+#fixed div{
+   margin-top:5px;
+}
+#fixed .f_top img{
+   width:40px;
+   height:40px;
+   padding-top:3px;
+}
+#fixed .f_tiket img{
+   width:30px;
+   height:30px;
+   padding-top:8px;
+}
+#fixed .f_button a{
+   display: block;
+   background-color: #333;
+   width:50px;
+   height:50px;
+   border:1px solid rgba(255, 255, 255, 0.5);
+   border-radius: 25px;
+   box-sizing: border-box;
+}
+#fixed .f_tiket a:hover{
+   background-color: #c92b28;
+   transition: ease 0.3s;
+}
+#fixed .f_top a:hover{
+   background-color: #eb9a27;
+   transition: ease 0.3s;
+}
+/*sub7-----------------------------------------------------------------------------*/
+
+h1{
+   width:360px;
+   height:105px;
+   margin:0 auto;
+}
+
+/*로그인창*/
+.login-form{
+   width:600px;
+   margin:0 auto 30px;
+   box-sizing: border-box;
+}
+.input-box{
+   width:600px;
+   height:70px;
+   position:relative;
+   top:0;
+   left:0;
+   box-sizing: border-box;
+}
+.id-field{
+   width:600px;
+   height:70px;
+   border:1px solid #bbbbbb;
+   padding-left: 75px;
+   margin-bottom:-1px;
+   color:#ddd;
+   position:relative;
+   top:1px;
+   left:0;
+   border-radius: 25px 25px 0 0;
+   color:#333;
+   font-size:18px;
+   box-sizing: border-box;
+   transition: ease 1s;
+}
+.pw-field{
+   width:600px;
+   height:70px;
+   border:1px solid #bbb;
+   padding-left: 75px;
+   position:relative;
+   top:0;
+   left:0;
+   border-radius:0 0 25px 25px;
+   color:#333;
+   font-size:18px;
+   box-sizing: border-box;
+   transition: ease 1s;
+}
+#delite2{
+   position:absolute;
+   top:50%;
+   margin-top:-13px;
+   right:30px;
+   z-index: 11;
+   background-color: #333;
+   color:#fff;
+   width:25px;
+   height:25px;
+   text-align: center;
+   border-radius: 18px;
+   cursor: pointer;
+}
+#delite1{
+   position:absolute;
+   top:50%;
+   margin-top:-13px;
+   right:30px;
+   z-index: 11;
+   background-color: #333;
+   color:#fff;
+   width:25px;
+   height:25px;
+   text-align: center;
+   border-radius: 18px;
+   cursor: pointer;
+}
+button p{
+   margin-top:-2px;
+
+}
+input:focus{
+   border:3px solid #ed1c24;
+   z-index: 1;
+   outline: none;
+   color:#333;
+   font-size:18px;
+   transition: ease 0.5s;
+}
+.color{
+   position: absolute;
+   top:17px;
+   left:20px;
+   z-index:2;
+}
+input::placeholder{
+   color:transparent;
+}
+input:placeholder-shown + label{
+   color:#aaa;
+   font-size:14pt;
+   top:25px;
+}
+input:focus + label{
+   color:#ed1c24;
+   transition: all 0.5s ease ;
+   font-weight:900;
+   font-size:15pt;
+   letter-spacing:5x;
+   background-color: #fff;
+}
+input:focus + label, label{
+   font-size:10pt;
+   pointer-events: none;
+   position: absolute;
+   left:75px;
+   top:-8px;
+   padding:0 10px;
+   background-color: #fff;
+   transition: all 0.2s ease ;
+   -webkit-transition: all 0.2s ease;
+   -moz-transition: all 0.2s ease;
+   -o-transition: all 0.2s ease;
+   z-index: 2;
+}
+button{
+   font-size:25px;
+   outline: 0;
+   border:0;
+}
+
+
+/*로그인 버튼*/
+#login_main_button{
+   width:1280px;
+   box-sizing: border-box;
+   margin:0 auto;
+}
+#login_main_button .login_main_button_wrap a{
+   display: block;
+   width:600px;
+   height:70px;
+   margin:0 auto;
+   border-radius: 35px;
+   border: 1px solid #aaa;
+   box-sizing: border-box;
+   position:relative;
+   overflow: hidden;
+   transition: ease 0.5s;
+}
+#login_main_button .login_main_button_wrap a:hover{
+   border: 1px solid rgba(255, 255, 255, 0);
+   transition: ease 0.3s;
+}
+#login_main_button .login_main_button_wrap a:hover .enter_bg{
+   opacity: 1;
+   transition: ease 0.3s;
+}
+#login_main_button .login_main_button_wrap a .enter_bg{
+   width:600px;
+   height:100px;
+   position: absolute;
+   top:0;
+   left:0;
+   z-index: -1;
+   opacity: 0;
+   transition: ease 0.5s;
+}
+.login_main_button_wrap a ul{
+   text-align: center;
+   width:600px;
+   height:70px;
+}
+.login_main_button_wrap a ul li{
+   float:left;
+}
+.login_main_button_wrap a ul li p{
+   font-size:25px;
+   color:#333;
+   font-family: 'KHNPHD';
+   position:absolute;
+   top:35%;
+   left:43%;
+   transition: ease 0.3s;
+}
+.login_main_button_wrap a:hover ul li p{
+   color:#fff;
+   transition: ease 0.3s;
+}
+.login_main_button_wrap a ul li img{
+   position:absolute;
+   top:19%;
+   left:35%;
+}
+.login_main_button_wrap a ul li .enter_icon1{
+   opacity: 0;
+   transition: ease 0.3s;
+}
+.login_main_button_wrap a ul li .enter_icon2{
+   opacity: 1;
+   transition: ease 0.3s;
+}
+.login_main_button_wrap a:hover ul li .enter_icon1{
+   opacity: 1;
+   transition: ease 0.3s;
+}
+.login_main_button_wrap a:hover ul li .enter_icon2{
+   opacity: 0;
+   transition: ease 0.3s;
+}
+/*계정 헬프 창*/
+.help{
+   width:400px;
+   height:70px;
+   margin:0 auto 70px;;
+   padding-top:30px;
+   box-sizing: border-box;
+}
+.help ul li{
+   text-align: center;
+   float:left;
+}
+.help ul li:nth-child(1){
+   width:100px;
+}
+.help ul li:nth-child(3){
+   width:100px;
+}
+.help ul li:nth-child(5){
+   width:100px;
+}
+.help ul li:nth-child(2){
+   width:50px;
+}
+.help ul li:nth-child(4){
+   width:50px;   
+}
+.help ul li a{
+   text-align: center;
+   color:#aaa;
+   transition: ease 0.5s;
+}
+.help ul li a:hover{
+   transition: ease 0.5s;
+}
+.help ul li:nth-child(1) a:hover{
+   color:#ed1c24;
+}
+.help ul li:nth-child(3) a:hover{
+   color:#39beb9;
+}
+.help ul li:nth-child(5) a:hover{
+   color:#0368ac;
+}
+
+/*타사로그인*/
+.login_another{
+   width:600px;
+   height:150px;
+   margin:0 auto;
+   position: relative;
+   top:0;
+   left:0;
+}
+.login_another p{
+   font-family: 'KHNPHD';
+   font-size:20px;
+   text-align: center;
+}
+.login_another ul li{
+   float: left;
+   width:260px;
+   height:50px;
+   border-radius: 25px;
+   overflow: hidden;
+   box-sizing: border-box;
+   margin-top:40px;
+}
+.login_another ul li a{
+   display: block;
+}
+.login_another ul li:nth-child(1){
+   margin-right:80px;
+}
+
+

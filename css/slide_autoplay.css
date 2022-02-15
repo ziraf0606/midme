@@ -1,0 +1,31 @@
+*{margin:0; padding:0;}
+.swiper-container { width:100%; height:480px;}/*높이 수정할것!!!*/
+.swiper-slide {text-align: center; font-size: 18px; background: #fff;
+			  /* Center slide text vertically 
+			  display: -webkit-box;
+			  display: -ms-flexbox;
+			  display: -webkit-flex;
+			  display: flex;*/
+			  -webkit-box-pack: center;
+			  -ms-flex-pack: center;
+			  -webkit-justify-content: center;
+			  justify-content: center;
+			  -webkit-box-align: center;
+			  -ms-flex-align: center;
+			  -webkit-align-items: center;
+			  align-items: center; }
+/*.swiper-slide img{width:100%;}*/
+/*이동버튼 영역*/
+.swiper-button-next,
+.swiper-button-prev{color:#fff; width:28px; height:52px;}/*버튼 크기와 색 수정할것!!!*/
+.swiper-button-prev{left:10px;}
+.swiper-button-next{right:10px;}
+.swiper-button-prev.swiper-button-disabled, 
+.swiper-button-next.swiper-button-disabled{opacity:1;}
+.swiper-button-next:hover,
+.swiper-button-prev:hover{color:salmon;}
+/*블릿버튼 영역*/
+.swiper-pagination-bullet{background:#ffffff; width:10px; height:10px; opacity:0.5;}/*하단 블릿 크기와 색 수정할것!!!*/
+.swiper-pagination-bullet-active{opacity:1;}
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{bottom:14px;}
+
